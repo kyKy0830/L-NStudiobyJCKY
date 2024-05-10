@@ -1,0 +1,95 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lash&Nails Studio By Jcky</title>
+        <link rel="stylesheet" href="style.css">
+
+  <style>
+#form2 {
+        display: none;
+}
+#form1, #form2 {
+  width: 50%;
+  margin: 10%;
+  background-color:azure;
+}
+input[type=text], input[type=password], input[type=email] {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+ 
+}
+.title {
+font-size: 35px;
+margin-top: 20px;
+}
+input[type=button] {
+  margin-bottom: 20px;
+  background-color: ffa7c0;
+  width: 90%;
+  height: 30px;
+
+}
+input[type=button]:hover {
+  background-color: black;
+  color:aliceblue
+}
+  </style>
+
+  <script>
+function showform2() {
+        var form2 = document.getElementById("form2");
+        form2.style.display = "block";
+        var form1 = document.getElementById("form1");
+        form1.style.display = "none";
+    }
+
+   
+  </script>
+</head>
+<body>
+
+
+<center>
+  <div class="container">
+    <div class="navbar">
+        <img src="lnsbjlogo.jpg" class="logo">
+
+        <p style="margin-left: 20px; font-style: Brush Script MT;">Lash&Nails by Jacky</p>              
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="subs.html">SUBSCRIBE</a></li>
+            </ul>
+        </nav>
+    </div>
+<form id="form1" >
+  <br>
+ <p class="title">SIGN UP</p>   <br>
+     <input type="text" id="name" name="name" placeholder="Full Name">   <br>
+    <input type="text" id="contact" name="contact" placeholder="Contact Number">   <br>
+   <input type="email" id="email1" name="email1" placeholder="Email">  <br>
+    <input type="password" id="pass1" name="pass1" placeholder="Password">   <br><br>
+
+   <a href="index.html"> <input type="button" value="create account" > </a> <br> <br>
+   <input type="button" value="already have account?" onclick="showform2()">
+   
+  </form>
+
+  <form2 id="form2"> <br>
+    <p>LOG IN</p>  <br>
+  <input type="email" id="email2" name="email2" placeholder="Email">  <br>
+  <input type="password" id="pass2" name="pass2" placeholder="Password">   <br> <br>
+    <a href="index.html">  <input type="button" value="log in"> </a>
+
+  </form2>
+</center>
+</body>
+
+</html>

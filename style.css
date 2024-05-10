@@ -1,0 +1,153 @@
+* {
+    margin-top: 0px;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+}
+body {
+    background-color: #ffa7c0;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.logo {
+    width: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(122, 0, 51);
+    font-size: 13px;
+}
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col-1 {
+    flex-basis: 50%;
+    border-left: 5px solid rgba(255, 255, 255, 0.712);
+}
+.col-2 {
+    flex-basis: 50%;
+    margin-top: 450px;
+}
+.z {
+    margin-left: 30px;
+}
+
+button {
+    width: 180px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 16px 32px;
+    background: linear-gradient(to right, #ff7fa3, #a83555);
+    border: 0;
+    border-radius: 6px;
+    outline: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+cert {
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+
+
+
+button:hover {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: width 0.5s;
+    display: block;
+
+}
+
+.heart {
+    margin-left: 35px;
+}
+
+a {
+    text-decoration: none;
+    border: 2px solid #ffa7c0;
+    
+   
+}
+
+a:hover {
+    text-decoration: none;
+    transition:0.5s;
+    background-color: #ffffff;
+    border:2px solid #ffffff;
+    color: #a83555;
+    
+}
+
+a:active {
+    background-color:#a83555;
+    border:2px solid #a83555;
+    color: #ffffff;
+}
+
+
+
+.card {
+    width: 260px;
+    height: 220px;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px 10px;
+    margin-left: 200px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    color: #692e3f;
+}
+.card-1 {
+    text-align: center;
+}
+.card-2 {
+    text-align: center;
+}
+.card-3 {
+    text-align: center;
+}
+.card-4 {
+    text-align: center;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.a {
+    width: 255;
+    height: 210;
+    border-radius: 10px;
+}
